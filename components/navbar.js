@@ -9,7 +9,7 @@ const navbar = () => {
     return (
         <>
             <MobileNav />
-            <nav className=' hidden bg-black py-6 none text-xl xl:text-2xl lg:flex'>
+            <nav className='hidden bg-black py-6 none text-xl lg:flex'>
                 <div className=" flex container mx-auto justify-between items-center text-white">
                     <div className="desktop-logo cursor-pointer">
                         <Image src={'/images/DesktopLogo.png'} alt='Logo' width={200} height={20}></Image>
@@ -23,7 +23,7 @@ const navbar = () => {
                     </ul>
                     <div className="flex items-center gap-10">
                         <button className='outline-none'>Login</button>
-                        <button className='rounded-full outline-none bg-white text-black px-7 py-3'>Register</button>
+                        <button className='rounded-full outline-none bg-white text-black px-7 py-2'>Register</button>
                     </div>
                 </div>
             </nav>
