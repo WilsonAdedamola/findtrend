@@ -4,7 +4,7 @@ const brands = () => {
     return (
         <section className="bg-white py-24">
             <div className="container mx-auto px-4 flex flex-col justify-center items-center md:px-0">
-                <h1 className="text-4xl font-bold mb-32 md:text-6xl">Findtrend helps you to increase your productivity and reduce your computer's memory load, <span className="text-gray-300">an application that can fulfill your daily browsing needs.</span></h1>
+                <h1 className="text-4xl font-bold mb-32 md:text-6xl">{"Findtrend helps you to increase your productivity and reduce your computer's memory load,"} <span className="text-gray-300">an application that can fulfill your daily browsing needs.</span></h1>
                 <h1 className="text-3xl font-bold text-center md:text-6xl">Findtrend make +1000 Startup grow</h1>
                 <div className="grid grid-cols-2 mt-16 gap-6 md:gap-8 md:grid-cols-4">
                     <Image src={'/images/microsoft.png'} width={250} height={5} alt="microsoft"></Image>
